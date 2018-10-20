@@ -1,0 +1,31 @@
+<p>Link from Nav: {{url.id}}</p>
+<p>Date Routed: </p>
+<hr>
+{{ productData | json }}
+<div  class="products">
+    <h2>{{productData.body | uppercase}} Details</h2>
+    <div><span>Description: </span>{{productData.prod_desc}}</div>
+    <div><span>Price: </span>{{productData.prod_price}}</div>
+    <div><span>Update Date: </span>{{productData.updated_at | date}}</div>
+    <div>
+      <button routerLink="/product-edit/{{productData._id}}">
+        Edit
+      </button>
+    </div>
+  </div>
+  <hr>
+
+<ul class="products">
+    <li *ngFor="let p of products; let i=index;">
+      <a routerLink="/product-details/{{p.userId}}">
+        <span class="badge">{{i+1}}</span> {{p.prod_name}}
+      </a>
+      <button class="delete" title="delete product"
+        >x</button>
+    </li>
+  </ul>
+
+
+<iframe width="420" height="845" [src]="link | safe">
+</iframe>
+

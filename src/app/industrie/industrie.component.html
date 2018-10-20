@@ -1,0 +1,23 @@
+<p>Link from Nav: {{url.id}}</p>
+<p>Date Routed: </p>
+<hr>
+{{ memberFoundParametersArray }}
+<hr>
+
+<hr>
+{{ industries | json }} 
+<div  class="products">
+    <h2>Controller: {{ industries.controller | uppercase}} </h2>
+    <div><span>Template: </span>{{industries.template}}</div>
+    <div><span>Price: </span>{{productData.prod_price}}</div>
+    <div><span>Update Date: </span>{{productData.updated_at | date}}</div>
+    <div>
+      <button routerLink="/product-edit/{{productData._id}}">
+        Edit
+      </button>
+    </div>
+  </div>
+  <hr>
+     
+     
+  

@@ -1,0 +1,22 @@
+<h2>Editions List</h2>
+<!-- <div><span>Type:</span> {{editions.type | uppercase}}</div>
+<div><span>Desc: </span> {{editions.description}}</div>
+<div><span>Id: </span> {{editions.id}}</div>
+<div><span>Image: </span> {{editions.image}}</div>
+<div><span>Name: </span> {{editions.name}}</div>
+<div><span>DateAdded: </span>{{editions.dateAdded}}</div>
+<div><span>Members: </span>{{editions.members}}</div> -->
+<hr>
+<!-- [class.selected]="edition === selectedEdition"> -->
+<ul class="heroes">
+  <li *ngFor="let edition of editions" 
+      >
+      
+      <a routerLink="/edition/{{edition.type}}/{{edition.id}}" >
+    <span class="badge">{{ edition.type }}, {{ edition.id }}, {{ edition.dateAdded }}</span>
+  </a>
+</ul>
+<hr>
+
+
+<!-- <app-edition [edition]="selectedEdition"></app-edition> -->

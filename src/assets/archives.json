@@ -1,0 +1,63 @@
+[
+    
+    {
+        "type": "DIInfo",
+        "description": "",
+        "id": 3,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.10",
+        "members": "Adobe",
+        "link": "https://www.industrie-info.com/index_ind01.php"
+    },
+    {
+        "type": "DIInfo",
+        "description": "",
+        "id": 2,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.09",
+        "members": "Esker, Sage",
+        "link": "https://www.industrie-info.com/"
+    },
+    {
+        "type": "DIInfo",
+        "description": "",
+        "id": 1,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.09",
+        "members": "Esker",
+        "link": "https://www.industrie-info.com/index_ind01.php"
+    },
+    {
+        "type": "DMK",
+        "description": "",
+        "id": 1,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.10",
+        "members": "DocuSign",
+        "link": "https://www.industrie-info.com/index_ind01.php"
+    },
+    {
+        "type": "DAF",
+        "description": "",
+        "id": 2,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.09",
+        "members": "Esker, Sage",
+        "link": "https://www.industrie-info.com/"
+    },
+    {
+        "type": "DAF",
+        "description": "",
+        "id": 1,
+        "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+        "name": "Industrie info",
+        "dateAdded": "18.09",
+        "members": "Esker",
+        "link": "https://www.industrie-info.com/index_ind01.php"
+    }
+]

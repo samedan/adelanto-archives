@@ -1,0 +1,29 @@
+
+[
+        {
+           
+                "controller": "Industrie",
+                "template": "",
+                "url": "02",
+                "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+                "name": "Industrie info",
+                "dateAdded": "18.09",
+                "members": ["Esker", "Sage"],
+                "edition": "https://www.industrie-info.com/"
+           
+            
+        },
+        {
+           
+                "controller": "Industrie",
+                "template": "",
+                "url": "01",
+                "image": "https://www.adelanto.fr/web/industrie_info/1802_01/esker/images/email/1802_industrie_info_esker_email_03.gif",
+                "name": "Industrie info",
+                "dateAdded": "18.09",
+                "members": ["Esker"],
+                "edition": "https://www.industrie-info.com/index_ind01.php"
+           
+            
+        }
+]
