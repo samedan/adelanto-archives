@@ -1,3 +1,4 @@
+import { FirestoreComponent } from './firestore/firestore.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -15,6 +16,21 @@ import { IndustrieComponent } from './industrie/industrie.component';
 import { EditionsComponent } from './editions/editions.component';
 import { EditionComponent } from './edition/edition.component';
 import { FormsModule } from '@angular/forms';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { environment } from '../environments/environment';
+
+/*
+var firebaseConfig = {
+    apiKey: 'AIzaSyD4bKC2k0NtsxBLXIT227f1pRn9l81l85c',
+    authDomain: 'fir-59.firebaseapp.com',
+    databaseURL: 'https://fir-59.firebaseio.com',
+    projectId: 'fir-59',
+    storageBucket: 'fir-59.appspot.com',
+    messagingSenderId: '571118115219'
+}*/
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -47,13 +63,19 @@ const appRoutes: Routes = [
       IndustrieComponent,
       EditionsComponent,
       EditionComponent,
+      FirestoreComponent
    ],
    imports: [
       BrowserModule,
       RouterModule.forRoot(appRoutes),
       HttpModule,
       HttpClientModule,
-      FormsModule
+      FormsModule,
+      AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
+    AngularFireStorageModule,
+
    ],
    providers: [],
    bootstrap: [
